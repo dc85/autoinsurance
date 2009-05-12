@@ -84,7 +84,7 @@ border: 20px solid #F3F3F3;
 
 #header {
 	width: 978px;
-	height: 515px;
+	height: 135px;
 	margin: 0 auto;
 }
 
@@ -129,15 +129,15 @@ border: 20px solid #F3F3F3;
 
 #logo {
 	width: 978px;
-	height: 463px;
+	height: 83px;
 	margin: 0 auto;
-	background: url(images/img12.jpg) no-repeat left top;
+	/*background: url(images/img12.jpg) no-repeat left top;*/
 	
 }
 
 
 #logo h1 {
-	padding-top: 100px;
+	padding-top: 10px;
 	padding-left: 20px;
 	color: #ffffff;
 	font-size: 24px;
