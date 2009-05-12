@@ -1,0 +1,340 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 20px 0;
+	background: #4F7FA9 url(images/bg.gif) repeat-x;
+}
+
+body, th, td, input, textarea {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+}
+
+form {
+}
+
+
+
+h1, h2, h3 {
+	color: #4F7FA9;
+}
+
+h1 {
+	font-size: 3em;
+	padding-top: 10px;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #4F7FA9;
+	padding-top: 10px;
+}
+
+
+h3 {
+	font-size: 1em;
+}
+
+
+ul, ol {
+	margin-left: 3em;
+}
+
+a {
+	text-decoration: none;
+	color: #4F7FA9;
+
+}
+
+a:hover {
+	border: none;
+}
+
+h1 a, h2 a, h3 a {
+	border: none;
+	text-decoration: none;
+	color: #4F7FA9;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover {
+	background: none;
+	color: #3C7BCF;
+}
+
+#main
+{
+width: 978px;
+margin: 0 auto;
+border: 20px solid #F3F3F3;
+}
+
+/* Header */
+
+#header {
+	width: 978px;
+	height: 515px;
+	margin: 0 auto;
+}
+
+#menu {
+	float: left;
+	width: 948px;
+	padding-left: 30px;
+	background: url(images/menu.gif) repeat-x
+}
+
+#menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	float: left;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	height: 32px;
+	width: 185px;
+	text-align:center;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: bold;
+	color: #ffffff;
+	padding-top: 20px;
+}
+
+#menu a:hover {
+	background:  #F3F3F3;
+	color: #2C2E22;
+}
+
+
+/* Logo */
+
+#logo {
+	width: 978px;
+	height: 463px;
+	margin: 0 auto;
+	background: url(images/img12.jpg) no-repeat left top;
+	
+}
+
+
+#logo h1 {
+	padding-top: 100px;
+	padding-left: 20px;
+	color: #ffffff;
+	font-size: 24px;
+}
+
+#logo h2 {
+	font-style: italic;
+	font-size: 10px;
+	padding-left: 20px;
+}
+
+#logo p {
+	clear: left;
+	margin: 0;
+	padding: 0 0 0 20px;
+	line-height: normal;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+#logo a {
+	color: #FFFFFF;
+}
+
+/* Page */
+
+#page {
+	width: 978px;
+	background: #FFFFFF;
+	border-top: none;
+	padding-top: 20px;
+}
+
+/* Content */
+
+#content {
+	float: left;
+	width: 650px;
+	padding: 0px 0px 0px 20px;
+}
+
+.post {
+}
+
+.post .title {
+	margin: 0;
+	font-weight: normal;
+}
+
+.post h1.title {
+	background: url(images/img18.gif) no-repeat left top;
+	padding: 15px 0  0 15px;
+	height: 30px;
+	font-size: 2.4em;
+}
+
+.post .entry {
+	padding: 0 10px 30px 15px;
+}
+
+.post .meta {
+	margin: 0;
+	padding: 5px 0px 0px 15px;
+	background: url(images/img04.gif) repeat-x left bottom;
+	text-transform: uppercase;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #4F7FA9;
+}
+
+.post .meta a {
+	color: #4F7FA9;
+}
+
+.post .links {
+	margin: 0;
+}
+
+.post .tags {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: .8em;
+	font-weight: bold;
+	background: url(images/img04.gif) repeat-x;
+}
+
+.post .links a, .post .tags a {
+	border: none;
+}
+
+/* Recent Posts */
+
+#recent-posts {
+}
+
+#recent-posts h2 {
+	margin: 0;
+	background: url(images/img13.gif) no-repeat left top;
+	padding: 15px 0  0 15px;
+	height: 30px;
+}
+
+#recent-posts h3 {
+	margin: 0;
+	font-size: 13px;
+	padding: 15px 0  0 15px;
+	background: url(images/img04.gif) repeat-x left bottom;
+}
+
+#recent-posts p {
+	margin: 0 0 10px 0;
+	padding: 15px 0  0 15px;
+	line-height: 22px;
+	font-size: 13px;
+}
+
+/* Sidebars */
+
+.sidebar {
+	float: left;
+}
+
+.sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar li {
+	margin-bottom: 2em;
+}
+
+.sidebar li ul {
+}
+
+.sidebar li li {
+	margin: 0;
+}
+
+.sidebar li h2 {
+	margin: 0 0 1em 0;
+}
+
+#sidebar1 {
+	width: 230px;
+	padding: 0px 0px 0px 20px;
+}
+
+#sidebar2 {
+	width: 240px;
+	padding: 0px 20px 0px 20px;
+}
+
+#sidebar2 li h2 {
+	margin: 0 0 1em 0;
+	background: url(images/title.gif) no-repeat left top;
+	padding: 13px 0  0 13px;
+	color: #FFFFFF;
+	height: 46px;
+}
+
+#sidebar2 li ul {
+	line-height: normal;
+	background: url(images/img04.gif) repeat-x;
+}
+
+#sidebar2 li li {
+	padding: 5px;
+	background: url(images/img04.gif) repeat-x left bottom;
+	font-size: .8em;
+}
+
+#sidebar2 li a {
+	border: none;
+	padding-left: 10px;
+	font-size: 11px;
+}
+
+#sidebar2 li a:hover {
+	border: none;
+	padding-left: 10px;
+}
+
+
+
+/* Footer */
+
+#footer {
+	text-align: center;
+	font-size: 9px;
+	color: #ffffff;
+	height: 40px;
+	padding-top: 10px;
+}
+
+#footer a
+{
+color: #FFFFFF
+}
